@@ -46,7 +46,7 @@ public class NaukriUpdateResume {
 		}
 		driver.findElement(By.xpath("//img[@alt='naukri user profile img']")).click();
 		driver.findElement(By.xpath("//a[@title='Logout']")).click();
-//		driver.quit();
+		driver.quit();
 		
 	}
 }
